@@ -7,7 +7,7 @@
     }
   ],
   "description": "WordPress theme",
-  "license": "proprietary",
+  "license": "MIT",
   "repositories": [
     {
       "type": "composer",
