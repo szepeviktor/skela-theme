@@ -54,7 +54,7 @@ class ImageLayout {
 	}
 
 	/**
-	 * Get info from the related ACF fields and then render corrosponding template.
+	 * Get info from the related ACF fields and then render corresponding template.
 	 *
 	 * @param array  $block      The block settings and attributes.
 	 * @param string $content    The block content (empty content).

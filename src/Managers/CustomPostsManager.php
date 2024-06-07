@@ -29,7 +29,7 @@ class CustomPostsManager {
 		/*
 		// This is an example of the `register_post_type` call. Note that you should
 		// *not* register an "author" post type since that is a reserved type in
-		// WordPress. This code is here for referene only.
+		// WordPress. This code is here for reference only.
 		// Author post type.
 		$author_labels = array(
 			'name'          => __( 'Authors' ),

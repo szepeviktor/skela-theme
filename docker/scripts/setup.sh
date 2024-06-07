@@ -19,7 +19,7 @@ wp config create \
 	--dbpass=$WORDPRESS_DB_PASSWORD \
 	--dbhost=$WORDPRESS_DB_HOST \
 	--extra-php <<PHP
-// This allows the WordPress site to run securly behind the ups-dock reverse proxy
+// This allows the WordPress site to run securely behind the ups-dock reverse proxy
 if (strpos(\$_SERVER['HTTP_X_FORWARDED_PROTO'], 'https') !== false) {
 	\$_SERVER['HTTPS'] = 'on';
 }
@@ -71,7 +71,7 @@ if ! wp core is-installed; then
 	fi
 fi
 
-# Convert from existing single site to multisite instsall
+# Convert from existing single site to multisite install
 ms_tables=$(wp db tables --scope=ms_global)
 if [ $WORDPRESS_MULTISITE = 1 ] && [ ! "$ms_tables" ]; then
 	if [ $WORDPRESS_MULTISITE_SUBDOMAIN_INSTALL = 1 ]; then

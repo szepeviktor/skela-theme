@@ -56,7 +56,7 @@ class RelatedArticles {
 
 	/**
 	 * Get the Related Articles text and related articles,
-	 * and then render corrosponding template
+	 * and then render corresponding template
 	 *
 	 * @param array  $block      The block settings and attributes.
 	 * @param string $content    The block content (empty content).
